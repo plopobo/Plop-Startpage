@@ -11,10 +11,10 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'plopobo',
+	imageBackground: true,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -26,14 +26,14 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'b0cbb9fca5fedfa286fd525a35ed8875', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	trackLocation: flase, // If false or an error occurs, the app will use the lat/lon below
+	defaultLatitude: '33.1983',
+	defaultLongitude: '96.6389',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -55,76 +55,76 @@ const CONFIG = {
 			id: '1',
 			name: 'Github',
 			icon: 'github',
-			link: 'https://github.com/',
+			link: 'https://github.com/plopobo',
 		},
 		{
 			id: '2',
-			name: 'Mail',
+			name: 'GMail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
 		{
 			id: '3',
-			name: 'Todoist',
+			name: 'ProtonMail',
 			icon: 'trello',
-			link: 'https://todoist.com',
+			link: 'https://mail.proton.me/u/1/inbox',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
+			name: 'iCloud',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://www.icloud.com/',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
+			name: 'DuckDuckGo',
 			icon: 'glasses',
-			link: 'https://reddit.com',
+			link: 'https://duckduckgo.com/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
+			name: 'Spotify',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://open.spotify.com/browse/featured',
 		},
 	],
 
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
+			name: 'Spotify',
 			icon: 'headphones',
-			link: 'https://open.spotify.com',
+			link: 'https://open.spotify.com/browse/featured',
 		},
 		{
 			id: '2',
-			name: 'twitter',
+			name: 'ABC News',
 			icon: 'twitter',
-			link: 'https://twitter.com/',
+			link: 'https://iview.abc.net.au/show/abc-news-24',
 		},
 		{
 			id: '3',
-			name: 'bot',
+			name: 'ABC TV',
 			icon: 'bot',
-			link: 'https://discord.com/app',
+			link: 'https://iview.abc.net.au/show/abc-vic-live-stream',
 		},
 		{
 			id: '4',
-			name: 'Amazon',
+			name: 'YouTube',
 			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '5',
-			name: 'Hashnode',
+			name: 'Twitch',
 			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
+			link: 'https://www.twitch.tv/',
 		},
 		{
 			id: '6',
-			name: 'Figma',
+			name: 'Discord',
 			icon: 'figma',
-			link: 'https://figma.com/',
+			link: 'https://discord.com/app',
 		},
 	],
 
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'musica',
+					link: 'https://www.youtube.com/watch?v=huDPxtoLWN4&list=PLVNnKHE7nFtByumA9GSCiyrKlYfBY7VFS&pp=iAQB',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Top Tier',
+					link: 'https://www.youtube.com/watch?v=AKAqD2XG_XE&list=PLVNnKHE7nFtAfkQuUQh_PTCUY59j2kdza&pp=iAQB',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'True Bops',
+					link: 'https://www.youtube.com/watch?v=Q0ft9ieeAuo&list=PLVNnKHE7nFtARmbgK6u30nZZBg1v1z5hF&pp=iAQB',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Sunny Days',
+					link: 'https://www.youtube.com/watch?v=NHuGG_FsC20&list=PLBt7yJ20zmjcxfhXea8KS7MNcGIEkmnL1&pp=gAQBiAQB',
 				},
 			],
 		},
