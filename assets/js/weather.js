@@ -13,6 +13,7 @@ weather.temperature = {
 };
 
 var tempUnit = CONFIG.weatherUnit;
+var tempFar = 0;
 
 const KELVIN = 273.15;
 const key = `${CONFIG.weatherKey}`;
@@ -49,6 +50,7 @@ function getWeather(latitude, longitude) {
 			weather.temperature.value = tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
 			weather.description = data.weather[0].description;
 			weather.iconId = data.weather[0].icon;
+			tempFar = (celsius * 9) / 5 + 32;
 		})
 		.then(function() {
 			displayWeather();
@@ -57,6 +59,6 @@ function getWeather(latitude, longitude) {
 
 function displayWeather() {
 	iconElement.innerHTML = `<img src="assets/icons/${CONFIG.weatherIcons}/${weather.iconId}.png"/>`;
-	tempElement.innerHTML = `${weather.temperature.value.toFixed(0)}°<span class="darkfg">${tempUnit}</span>`;
+	tempElement.innerHTML = `${weather.temperature.value.toFixed(0)}°<span class="darkfg">${tempUnit}/${tempFar}°<span class="darkfg">F</span>`;
 	descElement.innerHTML = weather.description;
 }

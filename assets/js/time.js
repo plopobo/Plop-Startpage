@@ -8,6 +8,7 @@ function displayClock() {
 	const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 
 	var d = new Date();
+	d = addMinutes(d, 960);
 	var mm = monthNames[d.getMonth()];
 	var dd = d.getDate();
 	var min = (mins = ('0' + d.getMinutes()).slice(-2));
@@ -28,4 +29,8 @@ function displayClock() {
 	document.getElementById('day').innerText = dd;
 
 	setTimeout(displayClock, 1000);
+}
+
+function addMinutes(date, minutes) {
+    return new Date(date.getTime() - minutes*60000);
 }
