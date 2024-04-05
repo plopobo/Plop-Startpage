@@ -11,13 +11,13 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'plopobo',
-	imageBackground: false,
+	name: 'Scott',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
+	greetingMorning: 'Good morning,',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
 	greetingNight: 'Go to Sleep!',
@@ -32,8 +32,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: false, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '33.1983',
-	defaultLongitude: '96.6389',
+	defaultLatitude: '33.214561',
+	defaultLongitude: '-96.614456',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,38 +53,38 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
+			name: 'ProtonMail',
+			icon: 'mail',
+			link: 'https://mail.proton.me/u/1/inbox',
+		},
+		{
+			id: '2',
+			name: 'GMail',
+			icon: 'mails',
+			link: 'https://mail.google.com/mail/u/0/#inbox',
+		},
+		{
+			id: '3',
 			name: 'Github',
 			icon: 'github',
 			link: 'https://github.com/plopobo',
 		},
 		{
-			id: '2',
-			name: 'GMail',
-			icon: 'mail',
-			link: 'https://mail.google.com/mail/u/0/#inbox',
-		},
-		{
-			id: '3',
-			name: 'ProtonMail',
-			icon: 'trello',
-			link: 'https://mail.proton.me/u/1/inbox',
-		},
-		{
 			id: '4',
-			name: 'iCloud',
-			icon: 'calendar',
-			link: 'https://www.icloud.com/',
+			name: 'YouTube',
+			icon: 'youtube',
+			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '5',
-			name: 'DuckDuckGo',
-			icon: 'glasses',
-			link: 'https://duckduckgo.com/',
+			name: 'iCloud',
+			icon: 'cloud',
+			link: 'https://www.icloud.com/',
 		},
 		{
 			id: '6',
 			name: 'Spotify',
-			icon: 'youtube',
+			icon: 'music',
 			link: 'https://open.spotify.com/browse/featured',
 		},
 	],
@@ -99,25 +99,25 @@ const CONFIG = {
 		{
 			id: '2',
 			name: 'ABC News',
-			icon: 'twitter',
+			icon: 'newspaper',
 			link: 'https://iview.abc.net.au/show/abc-news-24',
 		},
 		{
 			id: '3',
 			name: 'ABC TV',
-			icon: 'bot',
+			icon: 'tv',
 			link: 'https://iview.abc.net.au/show/abc-vic-live-stream',
 		},
 		{
 			id: '4',
 			name: 'YouTube',
-			icon: 'shopping-bag',
+			icon: 'youtube',
 			link: 'https://www.youtube.com/',
 		},
 		{
 			id: '5',
 			name: 'Twitch',
-			icon: 'pen-tool',
+			icon: 'twitch',
 			link: 'https://www.twitch.tv/',
 		},
 		{
@@ -135,7 +135,7 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'music-4',
 			id: '1',
 			links: [
 				{
@@ -157,24 +157,24 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'skull',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: '1337X',
+					link: 'https://www.1337x.to/home/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'EZTV',
+					link: 'https://eztvx.to/home',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Torrent Galaxy',
+					link: 'https://torrentgalaxy.to/',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Torrent Leech',
+					link: 'https://www.torrentleech.org/',
 				},
 			],
 		},
